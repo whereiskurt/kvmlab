@@ -23,7 +23,7 @@ virt-install --name=pfcombat \
   --os-variant=freebsd8
 
 virt-install --name=kali \
-  --boot cdrom \
+  --boot hd \
   --vcpus=4 \
   --memory=4096 \
   --network network=combat_ex1,mac=C2:CC:CC:CC:CC:CC \
