@@ -4,7 +4,8 @@
 export OUT=out/
 
 ##Define vars for WAN,MANAGEMENT and COMBAT networks INTERFACES and BRIDGES.
-export WAN_IF=eno1 ##eth0, xn0, etc.
+export WAN_IF=eno1 
+##export WAN_IF=wlx00c0ca61daa2 ##eth0,eno1,xn0,... etc.
 export WAN_BR=wan
 
 export MANAGE_IF=manage_if
