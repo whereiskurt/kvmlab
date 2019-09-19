@@ -1,4 +1,0 @@
-<network>
-  <name>combat_tor</name>
-  <bridge name='combat_tor' stp='on' delay='0'/>
-</network>
